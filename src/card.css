@@ -1,0 +1,58 @@
+.card-box {
+  text-align: center;
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.uncompleted {
+  background-color: rgb(197, 86, 112);
+}
+.completed {
+  background-color: #383838;
+  color: #383838;
+}
+h3 {
+  color: white;
+  margin: 0;
+  padding: 12px;
+}
+.modify-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid white;
+  width: 90%;
+}
+.card-button {
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  margin-left: 8px;
+  font-size: 50px;
+  border: none;
+  padding: 0;
+  line-height: 0px;
+  color: rgb(197, 86, 112);
+}
+.add {
+  background-color: rgb(23, 204, 23);
+  padding-top: 2px;
+}
+.substract {
+  background-color: red;
+  padding-bottom: 8px;
+}
+.status-button {
+  background: none;
+  color: white;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
